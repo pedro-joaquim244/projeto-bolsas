@@ -27,5 +27,28 @@ body {
 }
 
 a {
+  color: #2b2b2b;
   text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+header{
+  padding: 10px;
+display: flex;
+justify-content: space-around;
+
+img{
+  height: 35px;
+ 
+}  
+
+}
+
+
+nav{
+  display: flex;
+  gap: 16px;
 }
