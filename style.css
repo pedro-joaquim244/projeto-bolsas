@@ -89,11 +89,13 @@ padding-left: 60px;
     background-color: #039c2af4;
     border: 0px;
     color: white;
+    cursor: pointer;
 
     &:hover{
       background-color: rgb(4, 91, 9);
       color: #e9e9e9;
       transition: 0.17s 
+    
     }
   }
   h1{
@@ -104,5 +106,67 @@ padding-left: 60px;
   }
 
 
+/* fim destaque */  
+
+
+/* começo bolsas */
+
+
+.fileira{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 20px;
+  img{
+    height: 250px;
+    width: 250px;
+  }
+
+  h3{
+    font-family:sans-serif;
+  }
+
+}
+
+
+.bolsa1{
+text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+   &:hover{
+    transform: scale(1.12);
+        transition: 2s;
+  }
+}
+.bolsa2{
+text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+   &:hover{
+    transform: scale(1.12);
+        transition: 2s;
+  }
+}
+.bolsa3{
+text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+   &:hover{
+    transform: scale(1.12);
+        transition: 2s;
+  }
+}
+.bolsa4{
+text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  &:hover{
+    transform: scale(1.12);
+        transition: 2s;
+  }
+}
 
 
